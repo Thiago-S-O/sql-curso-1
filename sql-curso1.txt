@@ -1,0 +1,41 @@
+https://www.microsoft.com/pt-br/sql-server/sql-server-downloads
+https://learn.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+
+COMANDOS
+CREATE DATABASE nome-do-db;
+DROP DATABASE nome-do-db;
+
+instalando o sql
+-Identificar as necessidades da Frutally a empresa case;
+-Instalar a versão SQL Server 22;
+-Instalar o ambiente de desenvolvimentos SSMS: SQL Server Management Studio;
+-Categorizar os fatos históricos por trás da linguagem SQL;
+-Citar as principais vantagens e desvantagens dos bancos relacionais.
+
+trabalhando com o banco de dados e tabelas
+-Criar uma base de dados através do comando CREATE DATABASE;
+-Elaborar uma base de dados utilizando o assistente do SSMS;
+-Excluir uma base de dados vazia utilizando o comando DROP DATABASE;
+-Produzir uma tabela utilizando o comando CREATE TABLE;
+-Modificar uma tabela executando o comando ALTER TABLE;
+-Alterar uma coluna de uma tabela;
+-Definir uma coluna como chave identificadora de uma tabela.
+
+inserindo dados
+-Inserir dados utilizando o comando INSERT;
+-Incluir dados fora da ordem dos campos da tabela;
+-Inserir múltiplas linhas em uma única execução;
+-Identificar as restrições de uma chave primária;
+-Ler o erro que viola as restrições de uma chave primária.
+
+consultando dados
+-Selecionar todos os dados de uma tabela utilizando o SELECT * FROM <nome_tabela>;
+-Consultar informações de colunas específicas executando SELECT <colunas> FROM <nome_tabela>;
+-Exibir registros ordenados utilizando o ORDER BY;
+-Personalizar uma consulta aos dados apelidando determinadas colunas com o AS;
+-Eliminar valores duplicados da consulta usando o SELECT DISTINCT.
+_______________________________
+qaundo houver problemas para conectar, pode ser que esse erro tenha ocorrido principalmente quando o serviço SQL é interrompido. Você precisa reiniciar o serviço. Para acessar esta janela, você precisa pesquisar os serviços assim:
+basta procurar "services" no windons (ao lado do iniciar)e em seguida, procure por "SQLSERVER(MSSQLSERVER)" e reinicie o serviço.
+
+
